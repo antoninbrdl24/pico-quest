@@ -1,0 +1,35 @@
+
+nav{
+    margin-bottom: 2rem;
+    padding: 0 1rem
+}
+div{
+    text-align: center;
+}
+h1{
+    margin-bottom: 0px;
+}
+a{
+    font-size: 16px;
+}
+.grid{
+    grid-template-columns: repeat(1, 1fr);
+
+}
+article{
+    margin:3rem 1rem;
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    .grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}
+
+
